@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'wdm'
+gem 'jekyll-gist'
+gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
+gem 'poole'
+gem 'jekyll-paginate'
+gem 'rogue'
