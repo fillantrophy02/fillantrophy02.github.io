@@ -52,6 +52,7 @@ html {
   font-size: 14px;
   line-height: 1.5;
 }
+
 @media (min-width: 38em) {
   html {
     font-size: 14px;
@@ -88,25 +89,25 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 /* Body text */
 p {
   margin-top: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-bottom: 0.875rem;
 }
 
@@ -118,7 +119,7 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
