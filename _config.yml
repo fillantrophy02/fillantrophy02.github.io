@@ -6,7 +6,7 @@ url:                 https://fillantrophy02.github.io
 baseurl:             /
 paginate:            5
 permalink:           pretty
-highlighter:         rogue
+highlighter:         rouge
 
 # About/contact
 author:
