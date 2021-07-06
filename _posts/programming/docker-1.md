@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker 1
+title: Docker - A Quick Intro
 category: Programming
 ---
 
@@ -50,6 +50,29 @@ Fetch the logs of a container.
 | ----------- | ----------- |
 | `docker logs [OPTIONS] CONTAINER` | General format |
 | `docker logs web`  | Show the logs of container *web* |
+
+## Managing containers
+
+#### **docker container ls **
+
+List all containers.
+
+| Command      | Description |
+| ----------- | ----------- |
+| `docker container ls [OPTIONS]`  | General format |
+! `docker container ls` | List all <u>running</u> containers |
+! `docker container ls -a ` | List all containers |
+! `docker container ls -q ` | Only list container IDs |
+! `docker container ls -s ` | Display total file sizes |
+
+#### **docker container inspect**
+
+Display detailed information on container(s).
+
+| Command      | Description |
+| ----------- | ----------- |
+| `docker container inspect [OPTIONS] CONTAINER [CONTAINER...]`  | General format |
+! `docker container inspect -f web` | Display detailed info on container *web* using the Go template |
 
 ## Docker additional commands
 
